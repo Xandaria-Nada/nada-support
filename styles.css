@@ -220,6 +220,18 @@ button:focus-visible {
   box-shadow: inset 0 0 22px rgba(247, 183, 51, 0.08);
 }
 
+.brand-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  display: block;
+}
+
+.brand-mark {
+  overflow: hidden;
+}
 .brand-mark span {
   font-size: 20px;
   line-height: 1;
